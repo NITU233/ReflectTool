@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeLight" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">?android:colorPrimary</item>
+
+        <!-- 避免 Button 上的英文字符强制转为大写 -->
+        <item name="android:textAllCaps">false</item>
+
+        <item name="android:buttonBarPositiveButtonStyle">@style/dialogBtnStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/dialogBtnStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/dialogBtnStyle</item>
+
+        <!-- 控件默认颜色 -->
+        <item name="android:colorControlNormal">#FF909090</item>
+        <!-- 控件激活后的颜色 -->
+        <item name="android:colorControlActivated">#FF009EED</item>
+	</style>
+    <style name="AppThemeDark" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">?android:colorPrimary</item>
+
+        <!-- 避免 Button 上的英文字符强制转为大写 -->
+        <item name="android:textAllCaps">false</item>
+        
+        <item name="android:buttonBarPositiveButtonStyle">@style/dialogBtnStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/dialogBtnStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/dialogBtnStyle</item>
+
+        <!-- 控件默认颜色 -->
+        <item name="android:colorControlNormal">#FF909090</item>
+        <!-- 控件激活后的颜色 -->
+        <item name="android:colorControlActivated">#FF009EED</item>
+	</style>
+    
+    <style name="dialogBtnStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#FF8400</item>
+    </style>
+    
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/value_save"
+        android:title="保存关闭"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/value_exit"
+        android:title="关闭"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/view_variable"
+        android:title="查看变量名"
+        android:showAsAction="never" />
+</menu>

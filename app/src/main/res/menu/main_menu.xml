@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_run"
+        android:title="运行"
+        android:icon="@drawable/ic_run"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/create_object"
+        android:title="创建"
+        android:icon="@drawable/ic_add"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_preview"
+        android:title="转为Java"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/view_variable"
+        android:title="查看变量对应"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/menu_clear"
+        android:title="清空全部"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/menu_import"
+        android:title="导入 Xml"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/menu_export"
+        android:title="导出 Xml"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/help"
+        android:title="使用教程"
+        android:showAsAction="never" />
+    <group
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/night_theme"
+            android:title="夜间模式" />
+    </group>
+</menu>

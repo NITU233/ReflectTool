@@ -2,6 +2,7 @@
 
 支持预览Java代码，软件还在完善中
 
+本项目使用aide编译，如果使用其他ide请自行修改配置
 
 [解除Android高版本反射限制](https://github.com/tiann/FreeReflection)
 
